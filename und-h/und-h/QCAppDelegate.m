@@ -12,10 +12,16 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+	NSDictionary *userDefaultsDefaults = [NSDictionary dictionaryWithObjectsAndKeys:
+										  [NSNumber numberWithInt:0], @"total_hepps",
+										  [NSNumber numberWithInt:10], @"min_wait",
+										  [NSNumber numberWithInt:300], @"max_wait",
+										  nil];
+	[[NSUserDefaults standardUserDefaults] registerDefaults:userDefaultsDefaults];
     // Override point for customization after application launch.
     return YES;
 }
-							
+
 - (void)applicationWillResignActive:(UIApplication *)application
 {
 	// Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.

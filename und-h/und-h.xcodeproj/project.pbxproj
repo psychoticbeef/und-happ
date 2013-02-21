@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		030D40D916D6A6B700E5016E /* lel.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 030D40D816D6A6B700E5016E /* lel.jpg */; };
+		030D40DB16D6ACE700E5016E /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 030D40DA16D6ACE700E5016E /* AudioToolbox.framework */; };
+		030D40DC16D6ADB000E5016E /* siri.caf in Resources */ = {isa = PBXBuildFile; fileRef = 030D40D716D6A5BA00E5016E /* siri.caf */; };
+		030D40DE16D6C6C100E5016E /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 030D40DD16D6C6C100E5016E /* icon@2x.png */; };
+		030D40E116D6D32C00E5016E /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 030D40E016D6D32C00E5016E /* CoreLocation.framework */; };
 		0343063F16D693AC000E8B58 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0343063E16D693AC000E8B58 /* UIKit.framework */; };
 		0343064116D693AC000E8B58 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0343064016D693AC000E8B58 /* Foundation.framework */; };
 		0343064316D693AC000E8B58 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0343064216D693AC000E8B58 /* CoreGraphics.framework */; };
@@ -22,6 +27,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		030D40D516D69F2C00E5016E /* VoiceServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VoiceServices.framework; path = System/Library/PrivateFrameworks/VoiceServices.framework; sourceTree = SDKROOT; };
+		030D40D716D6A5BA00E5016E /* siri.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = siri.caf; sourceTree = "<group>"; };
+		030D40D816D6A6B700E5016E /* lel.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lel.jpg; sourceTree = "<group>"; };
+		030D40DA16D6ACE700E5016E /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		030D40DD16D6C6C100E5016E /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
+		030D40DF16D6CEAF00E5016E /* und-h.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "und-h.entitlements"; sourceTree = "<group>"; };
+		030D40E016D6D32C00E5016E /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		0343063B16D693AC000E8B58 /* und-h.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "und-h.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0343063E16D693AC000E8B58 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		0343064016D693AC000E8B58 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -47,6 +59,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				030D40E116D6D32C00E5016E /* CoreLocation.framework in Frameworks */,
+				030D40DB16D6ACE700E5016E /* AudioToolbox.framework in Frameworks */,
 				0343063F16D693AC000E8B58 /* UIKit.framework in Frameworks */,
 				0343064116D693AC000E8B58 /* Foundation.framework in Frameworks */,
 				0343064316D693AC000E8B58 /* CoreGraphics.framework in Frameworks */,
@@ -59,6 +73,10 @@
 		0343063216D693AC000E8B58 = {
 			isa = PBXGroup;
 			children = (
+				030D40E016D6D32C00E5016E /* CoreLocation.framework */,
+				030D40DD16D6C6C100E5016E /* icon@2x.png */,
+				030D40DA16D6ACE700E5016E /* AudioToolbox.framework */,
+				030D40D516D69F2C00E5016E /* VoiceServices.framework */,
 				0343064416D693AC000E8B58 /* und-h */,
 				0343063D16D693AC000E8B58 /* Frameworks */,
 				0343063C16D693AC000E8B58 /* Products */,
@@ -86,6 +104,7 @@
 		0343064416D693AC000E8B58 /* und-h */ = {
 			isa = PBXGroup;
 			children = (
+				030D40DF16D6CEAF00E5016E /* und-h.entitlements */,
 				0343064D16D693AC000E8B58 /* QCAppDelegate.h */,
 				0343064E16D693AD000E8B58 /* QCAppDelegate.m */,
 				0343065616D693AD000E8B58 /* MainStoryboard.storyboard */,
@@ -101,6 +120,8 @@
 		0343064516D693AC000E8B58 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				030D40D816D6A6B700E5016E /* lel.jpg */,
+				030D40D716D6A5BA00E5016E /* siri.caf */,
 				0343064616D693AC000E8B58 /* und-h-Info.plist */,
 				0343064716D693AC000E8B58 /* InfoPlist.strings */,
 				0343064A16D693AC000E8B58 /* main.m */,
@@ -164,11 +185,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				030D40DC16D6ADB000E5016E /* siri.caf in Resources */,
 				0343064916D693AC000E8B58 /* InfoPlist.strings in Resources */,
 				0343065116D693AD000E8B58 /* Default.png in Resources */,
 				0343065316D693AD000E8B58 /* Default@2x.png in Resources */,
 				0343065516D693AD000E8B58 /* Default-568h@2x.png in Resources */,
 				0343065816D693AD000E8B58 /* MainStoryboard.storyboard in Resources */,
+				030D40D916D6A6B700E5016E /* lel.jpg in Resources */,
+				030D40DE16D6C6C100E5016E /* icon@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,6 +291,10 @@
 		0343066216D693AD000E8B58 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SDKROOT)$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "und-h/und-h-Prefix.pch";
 				INFOPLIST_FILE = "und-h/und-h-Info.plist";
@@ -278,6 +306,10 @@
 		0343066316D693AD000E8B58 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SDKROOT)$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "und-h/und-h-Prefix.pch";
 				INFOPLIST_FILE = "und-h/und-h-Info.plist";
@@ -305,6 +337,7 @@
 				0343066316D693AD000E8B58 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
